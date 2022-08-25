@@ -2,8 +2,8 @@ digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
 0 [label="Log_Valor <= 17.57\ngini = 0.5\nsamples = 258\nvalue = [185, 221]\nclass = o", fillcolor="#dfeffb"] ;
-1 [label="gini = 0.38\nsamples = 116\nvalue = [130, 45]\nclass = P", fillcolor="#eead7e"] ;
+1 [label="gini = 0.33\nsamples = 107\nvalue = [130, 34]\nclass = P", fillcolor="#eca26d"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.36\nsamples = 142\nvalue = [55, 176]\nclass = o", fillcolor="#77bced"] ;
+2 [label="gini = 0.35\nsamples = 151\nvalue = [55, 187]\nclass = o", fillcolor="#73baed"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
 }
